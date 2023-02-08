@@ -193,10 +193,10 @@ body:not([class*="page-header-fixed"]) .pre-header .search-box {
     z-index: 25 !important;
 }
 
-.recent-work-item ul{
+/* .recent-work-item ul{
     color: black;
     font-size: 15px;
-}
+} */
 
 .col-md-12{
     display: flex;
