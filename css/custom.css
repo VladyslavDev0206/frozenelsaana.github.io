@@ -133,7 +133,6 @@ body:not([class*="page-header-fixed"]) .pre-header .search-box {
 }
 
 .dark-paras{
-    color: black;
     font-weight: bold;
 }
 
