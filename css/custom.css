@@ -6,6 +6,10 @@
     margin-top: 12px;
 }
 
+.reduce-header .header-navigation > ul > li > a {
+    padding: 16px 12px 30px;
+}
+
 .reduce-header .menu-search {
     margin-top: 0px;
     display: block !important;
@@ -487,4 +491,9 @@ body:not([class*="page-header-fixed"]) .pre-header .search-box {
     .inquiery-header{
         font-size: 2.25rem;
     }
+}
+
+.fa.fa-search.search-btn{
+    margin-left: 12px;
+    margin-top: 5px;
 }
