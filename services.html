@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <title>Service - Analysis</title>
+    <title>Service</title>
     <link rel="shortcut icon" href="favicon.ico" />
 
     <!-- Fonts START -->
@@ -66,20 +66,20 @@
                         </a>
                     </li>
                     <li class="dropdown">
-                        <a class="dropdown-toggle" data-target="#" href="javascript:;">
+                        <a class="dropdown-toggle" data-target="#" href="./services.html">
                             Services
                         </a>
 
                         <ul class="dropdown-menu">
-                            <li><a href="./about-us.html">Design</a></li>
+                            <li><a href="./services/services-design.html">Design</a></li>
                             <li>
-                                <a href="./services-analysis.html">Finite Elements Analysis</a>
+                                <a href="./services/services-analysis.html">Finite Elements Analysis</a>
                             </li>
                             <li><a href="page-prices.html">Crash & Impact</a></li>
                             <li><a href="page-faq.html">Hand Calculations</a></li>
                             <li><a href="page-gallery.html">Optimization</a></li>
                             <li>
-                                <a href="page-search-result.html">Test-Analysis Correlation</a>
+                                <a href="./services/services-testing.html">Test-Analysis Correlation</a>
                             </li>
                         </ul>
                     </li>
@@ -161,8 +161,8 @@
     <section style="background-image: url('./imgs/tom-barrett-hgGplX3PFBg-unsplash.jpg');">
         <div class="container" style="height: 263px; display: grid; align-items: center;">
             <div class="page-title" style="text-align: center;">
-                <h6 style="color: #fff; font-size: 18px;">ANALYSIS</h6>
-                <h1 style="color: #fff; margin-bottom: 1.1875rem; letter-spacing: -0.01em;">Cost-Effective Engineering Analysis Services</h1>
+                <h6 style="color: #fff; font-size: 18px;">SERVICES</h6>
+                <h1 style="color: #fff; margin-bottom: 1.1875rem; letter-spacing: -0.01em;">Engineering Services That Meet the Challenge</h1>
             </div>
         </div>
     </section>
@@ -196,6 +196,12 @@
             flex-wrap: wrap;
         }
 
+        @media print, screen and (max-width: 64em) {
+            .cell {
+                width: 50% !important;
+            }
+        }
+
         @media print, screen and (max-width: 40em) {
             .cell {
                 width: 100% !important;
@@ -209,7 +215,7 @@
             min-width: 0;
             padding-right: 0.9375rem;
             padding-left: 0.9375rem;
-            width: 50%;
+            width: 33.3333%;
         }
 
         .fig_txt p{
@@ -305,6 +311,16 @@
             position: relative;
             top: -77px;
         }
+
+        .btn.grey{
+            border: 1px solid #455465;
+        }
+
+        .page_view .fig_txt .btn {
+            padding: 0.5rem 1.375rem;
+            position: absolute;
+            bottom: 40px;
+        }
     </style>
     <section class="about-us ">
         <div class="container">
@@ -315,84 +331,37 @@
                             <div class="grid-x grid-padding-x" data-equalizer="bj9cad-equalizer"
                                 data-equalize-by-row="true" data-resize="bj9cad-equalizer"
                                 data-mutate="bj9cad-equalizer" data-events="mutate">
-                                <div class="large-6 medium-6 small-12 cell">
+                                <div class="large-4 medium-4 small-12 cell">
                                     <div class="figure"
                                         style="background-image: url(https://www.ata-e.com/wp-content/uploads/2017/12/acoustics-2.png); ">
                                     </div>
-                                    <div class="fig_txt" data-equalizer-watch="" style="height: 200px;">
-                                        <h3>Acoustics</h3>
+                                    <div class="fig_txt" data-equalizer-watch="" style="height: 350px;">
+                                        <h3>Analysis</h3>
                                         <p>Acoustic analysis can address severe structural vibration, fatigue problems,
                                             or high levels of noise in a coupled fluid-structure system.</p>
+                                        <a href="./services/services-analysis.html" class="btn grey">VIEW</a>
                                     </div>
                                 </div>
-                                <div class="large-6 medium-6 small-12 cell">
+                                <div class="large-4 medium-4 small-12 cell">
                                     <div class="figure"
                                         style="background-image: url(https://www.ata-e.com/wp-content/uploads/2018/01/1a_MSL_scarecrow-2.jpg); ">
                                     </div>
-                                    <div class="fig_txt" data-equalizer-watch="" style="height: 200px;">
-                                        <h3>Kinematic &amp; Multibody Dynamics</h3>
+                                    <div class="fig_txt" data-equalizer-watch="" style="height: 350px;">
+                                        <h3>Design</h3>
                                         <p>Kinematic analysis and accurate modeling of multibody interaction are
                                             critical to understanding mechanism performance.</p>
+                                        <a href="./services/services-design.html" class="btn grey">VIEW</a>
                                     </div>
                                 </div>
-                                <div class="large-6 medium-6 small-12 cell">
+                                <div class="large-4 medium-4 small-12 cell">
                                     <div class="figure"
                                         style="background-image: url(https://www.ata-e.com/wp-content/uploads/2017/12/engine-air-brake-1.png); ">
                                     </div>
-                                    <div class="fig_txt" data-equalizer-watch="" style="height: 200px;">
-                                        <h3>CFD &amp; FSI</h3>
+                                    <div class="fig_txt" data-equalizer-watch="" style="height: 350px;">
+                                        <h3>Testing</h3>
                                         <p>As part of our engineering analysis services, ATA has conducted CFD and FSI
                                             analyses for aerospace and industrial customers.</p>
-                                    </div>
-                                </div>
-                                <div class="large-6 medium-6 small-12 cell">
-                                    <div class="figure"
-                                        style="background-image: url(https://www.ata-e.com/wp-content/uploads/2018/02/Loads-and-dynamics-intro.png); ">
-                                    </div>
-                                    <div class="fig_txt" data-equalizer-watch="" style="height: 200px;">
-                                        <h3>Loads &amp; Dynamics</h3>
-                                        <p>ATA can help with defining loads and environments and predicting dynamic
-                                            responses.</p> 
-                                    </div>
-                                </div>
-                                <div class="large-6 medium-6 small-12 cell">
-                                    <div class="figure"
-                                        style="background-image: url(https://www.ata-e.com/wp-content/uploads/2017/12/Thermal-1.png); ">
-                                    </div>
-                                    <div class="fig_txt" data-equalizer-watch="" style="height: 200px;">
-                                        <h3>Thermal &amp; Aerothermal</h3>
-                                        <p>Call on our experience in thermal analysis of aerospace and electronic
-                                            systems and applying thermal loads to structural analysis models.</p> 
-                                    </div>
-                                </div>
-                                <div class="large-6 medium-6 small-12 cell">
-                                    <div class="figure"
-                                        style="background-image: url(https://www.ata-e.com/wp-content/uploads/2018/01/WB-57F_NASA.jpg); ">
-                                    </div>
-                                    <div class="fig_txt" data-equalizer-watch="" style="height: 200px;">
-                                        <h3>Aeroelasticity &amp; Flutter</h3>
-                                        <p>Our turnkey certification service connects you with a designated engineering
-                                            representative (DER) for a more efficient FAA certification process.</p> 
-                                    </div>
-                                </div>
-                                <div class="large-6 medium-6 small-12 cell">
-                                    <div class="figure"
-                                        style="background-image: url(https://www.ata-e.com/wp-content/uploads/2017/12/fatigue-v2.png); ">
-                                    </div>
-                                    <div class="fig_txt" data-equalizer-watch="" style="height: 200px;">
-                                        <h3>Fatigue, Fracture &amp; Durability</h3>
-                                        <p>ATA performs fatigue analysis on industrial equipment, themed entertainment
-                                            structures, and aerospace structures.</p> 
-                                    </div>
-                                </div>
-                                <div class="large-6 medium-6 small-12 cell">
-                                    <div class="figure"
-                                        style="background-image: url(https://www.ata-e.com/wp-content/uploads/2018/02/analysis-optomechanical-image.jpg); ">
-                                    </div>
-                                    <div class="fig_txt" data-equalizer-watch="" style="height: 200px;">
-                                        <h3>Optomechanical</h3>
-                                        <p>ATA engineers integrate with your team to analyze and test ground-, air-, and
-                                            space-based optomechanical systems.</p> 
+                                        <a href="./services/services-testing.html" class="btn grey">VIEW</a>
                                     </div>
                                 </div>
                             </div>
@@ -444,7 +413,7 @@
                     <h2>Analysis</h2>
                     <ul class="list-unstyled">
                         <li>
-                            <a href="./services-analysis.html">Finite Elements Analysis </a>
+                            <a href="./services/services-analysis.html">Finite Elements Analysis </a>
                         </li>
                         <li>
                             <a href="javascript:;">Crash and impact </a>

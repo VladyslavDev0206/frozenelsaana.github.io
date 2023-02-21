@@ -32,6 +32,10 @@
     height: 15.25rem;
 }
 
+.page_view.short-img .large-4 .figure {
+    height: 15.25rem;
+}
+
 .page_view .figure{
     background-size: cover !important;
     background-position: center center !important;
