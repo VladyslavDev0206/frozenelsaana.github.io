@@ -397,6 +397,14 @@ body:not([class*="page-header-fixed"]) .pre-header .search-box {
     margin-right:10px;
 }
 
+.entry-content{
+    font-size: 1.5rem;
+}
+
+.pagebtm_title{
+    margin-bottom: 15px;
+}
+
 @media (min-width: 1205px){
     .reduce-header .header-navigation > ul > li > a.project-inquiry{
         margin-top:12px;
